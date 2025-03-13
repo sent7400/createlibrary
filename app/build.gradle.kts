@@ -57,6 +57,8 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation ("com.github.sent7400:myapp-updates:1.6.0")
+
+    implementation(project(":mylibrary"))
+
 }
 

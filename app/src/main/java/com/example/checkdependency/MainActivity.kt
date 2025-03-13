@@ -16,7 +16,8 @@ import com.example.checkdependency.ui.theme.CheckdependencyTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        
+
+ 
         enableEdgeToEdge()
         setContent {
             CheckdependencyTheme {
